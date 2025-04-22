@@ -38,4 +38,8 @@ Bei den Daten handelt es sich um ein MS Excel Spreadsheet. Das vorrangige Ziel d
 
 ## Daten Aufbereitung
 
+```{r}
+
+```
+
 ## Daten Visualisierung
