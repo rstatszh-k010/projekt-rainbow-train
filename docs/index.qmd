@@ -1,6 +1,6 @@
 ---
 title: "Abschlussprojekt"
-subtitle: "rstatsZH-K009: "
+subtitle: "rstatsZH-K010: "
 author: "Rainbow Train"
 format: html
 editor: visual
@@ -19,24 +19,23 @@ read_excel(here::here("daten/raw/je-d-11.02.01.02.xlsx"))
 
 # Einleitung
 
-## Daten 
+## Daten
 
-Titel: Unfall-, Umwelt- und Gesundheitskosten des motorisierten Verkehrs 
+Titel: Unfall-, Umwelt- und Gesundheitskosten des motorisierten Verkehrs
 
 Ein Datensatz des Bundesamt für Statistik (BFS) welches sich mittels des Datenkatalog des BFS finden lässt. Die Ressource ist hier abgelegt: <https://www.bfs.admin.ch/bfs/de/home/statistiken/katalog.assetdetail.28425317.html>
 
 Die Methodik für die Erhebung der Daten ist hier verfügbar: https://www.are.admin.ch/are/de/home/mobilitaet/grundlagen-und-daten/kosten-und-nutzen-des-verkehrs.html
-
 
 ```{r}
 library(tidyverse)
 library(readxl)
 ```
 
-## Analyseziele 
+## Analyseziele
 
 Bei den Daten handelt es sich um ein MS Excel Spreadsheet. Das vorrangige Ziel dieser Analyse ist es die Daten aufzubereiten um diese in ein Tidy Data Format zu bringen. Mit diesem Format werden die Daten dann mittels Visualisierungen erkundet.
 
-## Daten Aufbereitung 
+## Daten Aufbereitung
 
-## Daten Visualisierung 
+## Daten Visualisierung
